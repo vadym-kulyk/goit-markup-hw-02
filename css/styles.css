@@ -1,0 +1,120 @@
+:root {
+  --primary-text-color: #212121;
+  --accent-color: #2196f3;
+  --second-color: #757575;
+}
+.pagestyle {
+  background: #f5f5f5;
+  font-family: 'Roboto';
+  color: var(--primary-text-color);
+  font-style: normal;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.head-style {
+  background: #ffffff;
+}
+
+.logo {
+  color: var(--primary-text-color);
+  text-decoration: none;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+.colorlogo {
+  color: var(--accent-color);
+}
+
+.navigation-link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--accent-color);
+}
+
+.navigation-link:active {
+  color: var(--accent-color);
+}
+
+/* телефон та імейл
+.connect-us {
+
+} */
+
+.email {
+  color: var(--accent-color);
+  list-style-type: none;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.email:hover,
+.email:focus {
+  color: var(--accent-color);
+}
+.email:active {
+  color: var(--accent-color);
+}
+.phone {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--second-color);
+}
+.phone:hover,
+.phone:focus {
+  color: var(--accent-color);
+}
+.phone:active {
+  color: var(--accent-color);
+}
+
+.projects {
+  background: #ffffff;
+}
+
+.projects-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+.projects-type {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--second-color);
+  text-decoration: none;
+  /* identical to box height, or 188% */
+
+  letter-spacing: 0.03em;
+}
+/*мейн background: #F5F5F5;
+акцет color: #2196f3;
+Білий color: #FFFFFF;
+текст color: #757575;
+футер background: #2F303A;*/
