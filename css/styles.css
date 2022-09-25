@@ -2,12 +2,81 @@
   --primary-text-color: #212121;
   --accent-color: #2196f3;
   --second-color: #757575;
+  --bg-color-main:#f5f5f5;
+  --bg-color-second: rgba(255, 255, 255, 1);
+  --bg-for-button: #F5F4FA;
+  --bg-for-footer: rgba(47, 48, 58, 1);
 }
+
+.hero-block {
+  background-color: var(--bg-for-footer);
+}
+
+.hero-title {
+  font-family: 'Roboto';
+    font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: var(--bg-color-second);
+  /* or 136% */
+    text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
 .pagestyle {
-  background: #f5f5f5;
+  background: var(--bg-color-main) ;
   font-family: 'Roboto';
   color: var(--primary-text-color);
   font-style: normal;
+}
+
+.advantage {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;}
+
+
+ .usual-text {
+font-size: 14px;
+line-height: 1.7;
+/* or 171% */
+
+letter-spacing: 0.03em;
+color: var(--second-color);
+
+ }
+
+ .second-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+
+ }
+.team {
+  background-color: var(--bg-for-button);
+}
+ .team-title {
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.03em;
+ }
+
+.team-position {
+  
+  font-size: 16px;
+  line-height: 1.18;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;  
 }
 
 ul {
@@ -15,7 +84,7 @@ ul {
 }
 
 .head-style {
-  background: #ffffff;
+  background: var(--bg-color-second);
 }
 
 .logo {
@@ -24,7 +93,7 @@ ul {
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
@@ -32,24 +101,24 @@ ul {
   color: var(--accent-color);
 }
 
-.navigation-link {
+.navigation-link a{
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
 
-.navigation-link:hover,
-.navigation-link:focus {
+.navigation-link a:hover,
+.navigation-link a:focus {
   color: var(--accent-color);
 }
 
-.navigation-link:active {
+.navigation-link a:active {
   color: var(--accent-color);
 }
-
+.navigation-link .current {color: var(--accent-color);}
 /* телефон та імейл
 .connect-us {
 
@@ -58,10 +127,9 @@ ul {
 .email {
   color: var(--accent-color);
   list-style-type: none;
-
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
@@ -75,7 +143,7 @@ ul {
 .phone {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--second-color);
@@ -89,31 +157,66 @@ ul {
 }
 
 .projects {
-  background: #ffffff;
+  background: var(--bg-color-second);
 }
 
 .projects-title {
-    font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
   text-decoration: none;
 }
 
 .projects-type {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.875;
   color: var(--second-color);
   text-decoration: none;
   /* identical to box height, or 188% */
 
   letter-spacing: 0.03em;
 }
-/*мейн background: #F5F5F5;
-акцет color: #2196f3;
-Білий color: #FFFFFF;
-текст color: #757575;
-футер background: #2F303A;*/
+
+.button { color: var(--primary-text-color);
+  background-color: var(--bg-for-button) ;
+width: 112px;
+height: 38px;
+left: 726px;
+top: 174px;
+border-radius: 4px;
+  }
+  
+.button-primary { color: var(--bg-color-second); background-color: var(--accent-color);}
+
+.bottom-style {
+  
+  background-color: var(--bg-for-footer);
+
+  
+}
+
+.adress {
+  
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: var(--bg-color-second);
+  text-decoration: none;
+}
+
+.email-footer {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+/* or 171% */
+
+letter-spacing: 0.03em;
+color: var(--second-color);
+text-decoration: none;
+}
+
