@@ -8,10 +8,9 @@
   --bg-for-footer: #2f303a;
 }
 
-.pagestyle {
+.body {
   font-family: 'Roboto', sans-serif;
   color: var(--primary-text-color);
-  
 }
 
 .logo {
@@ -29,11 +28,13 @@
 }
 
 .colorlogo2 {
-  color: var(--bg-color-second)
+  color: var(--bg-color-second);
 }
 
 /* телефон та імейл вгорі різний колір */
 /* телефон та імейл внизу однакові */
+
+
 .email {
   color: var(--accent-color);
   list-style-type: none;
@@ -105,6 +106,7 @@
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
+
 .team {
   background-color: var(--bg-for-button);
 }
@@ -123,9 +125,12 @@
   /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
+  color: var(--second-color);
 }
 
-.list-marker {list-style-type: none;}
+.list-marker {
+  list-style-type: none;
+}
 
 .head-style {
   background: var(--bg-color-second);
@@ -152,10 +157,7 @@
 .navigation-link .current {
   color: var(--accent-color);
 }
-
-
-
-
+/* додав стиль пря проєктів, щоб потім не  шукати*/
 .projects {
   background: var(--bg-color-second);
 }
@@ -174,12 +176,11 @@
   line-height: 1.875;
   color: var(--second-color);
   text-decoration: none;
-  /* identical to box height, or 188% */
   letter-spacing: 0.03em;
 }
-
+/*кнопки*/
 .button {
-  font: inherit;
+  font-family: inherit;
   color: var(--primary-text-color);
   background-color: var(--bg-for-button);
   font-weight: 500;
@@ -187,8 +188,8 @@
   line-height: 1.625;
   text-align: center;
   letter-spacing: 0.03em;
-  cursor: pointer; }
-
+  cursor: pointer;
+}
 
 .button:hover,
 .button:active,
@@ -196,14 +197,14 @@
   color: var(--bg-color-second);
   background-color: var(--accent-color);
 }
-
+/*кнопка на головній в герої*/
 .primary-button {
+  font-family: inherit;
   color: var(--bg-color-second);
   background-color: var(--accent-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
-  /* identical to box height, or 188% */
   display: flex;
   align-items: center;
   text-align: center;
@@ -211,6 +212,7 @@
   cursor: pointer;
 }
 
+/* стилі футера*/
 .bottom-style {
   background-color: var(--bg-for-footer);
 }
@@ -224,7 +226,7 @@
   color: var(--bg-color-second);
   text-decoration: none;
 }
-/* телефон та імейл внизу однакові */
+/* телефон та імейл внизу однакові тому один цей стиль */
 .email-footer {
   font-style: normal;
   font-size: 14px;
