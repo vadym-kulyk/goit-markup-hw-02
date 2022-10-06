@@ -35,22 +35,6 @@
 /* телефон та імейл внизу однакові */
 
 
-.email {
-  color: var(--accent-color);
-  list-style-type: none;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-}
-.email:hover,
-.email:focus {
-  color: var(--accent-color);
-}
-.email:active {
-  color: var(--accent-color);
-}
 .phone {
   font-weight: 500;
   font-size: 14px;
@@ -66,6 +50,12 @@
 .phone:active {
   color: var(--accent-color);
 }
+
+
+.email {
+  color: var(--accent-color);
+  }
+
 
 .hero-block {
   background-color: var(--bg-for-footer);
